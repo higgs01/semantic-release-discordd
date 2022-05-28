@@ -1,4 +1,7 @@
 # semantic-release-discord
+![](https://img.shields.io/npm/l/@higgs01dev/semantic-release-discord)
+[![](https://img.shields.io/npm/v/@higgs01dev/semantic-release-discord)](https://www.npmjs.com/package/@higgs01dev/semantic-release-discord)
+![](https://img.shields.io/bundlephobia/min/@higgs01dev/semantic-release-discord)
 ## Usage
 ```json
 {
@@ -20,3 +23,4 @@
 |---|---|---|
 |webhook|SEMANTIC_RELEASE_DISCORD_URL|webhook url|
 |packageName|SEMANTIC_RELEASE_PACKAGE|name of the package|
+|username|-|Username for the webhook|
