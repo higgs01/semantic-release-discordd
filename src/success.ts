@@ -10,9 +10,10 @@ export async function success(config: config, context: Context) {
 
     const packageName = config.packageName || context.env.SEMANTIC_RELEASE_PACKAGE;
     const webhookUrl = config.webhook || context.env.SEMANTIC_RELEASE_DISCORD_URL;
+    const username = config.username || 'Semantic Release'
 
     const message: Webhook = {
-        "username": "Semantic Release",
+        "username": username,
         "content": `A new version of **${packageName}** has been released`,
         "embeds": [
             {

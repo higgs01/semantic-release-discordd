@@ -1,4 +1,5 @@
 export type config = {
     webhook?: string,
-    packageName?: string
+    packageName?: string,
+    username?: string
 }
