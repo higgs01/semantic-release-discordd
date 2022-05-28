@@ -14,3 +14,9 @@
   ]
 }
 ```
+
+### Parameters
+|name|env|description|
+|---|---|---|
+|webhook|SEMANTIC_RELEASE_DISCORD_URL|webhook url|
+|packageName|SEMANTIC_RELEASE_PACKAGE|name of the package|
