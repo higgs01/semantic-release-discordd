@@ -1,0 +1,28 @@
+{
+  "name": "@higgs01dev/semantic-release-discord",
+  "version": "0.0.1",
+  "description": "semantic-release plugin to get release notifications on discord via webhooks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/higgs01/semantic-release-discord"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "higgs01",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "test": "tsc && nyc ava -v"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@types/semantic-release": "^17.2.3",
+    "typescript": "^4.7.2"
+  }
+}
