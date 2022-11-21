@@ -19,7 +19,7 @@
     "test": "tsc && nyc ava -v"
   },
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^1.0.0"
   },
   "devDependencies": {
     "@types/semantic-release": "17.2.4",
