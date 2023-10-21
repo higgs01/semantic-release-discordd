@@ -1,4 +1,5 @@
 # semantic-release-discord
+> :warning: this project istn't maintained anymore
 ![](https://img.shields.io/npm/l/@higgs01dev/semantic-release-discord)
 [![](https://img.shields.io/npm/v/@higgs01dev/semantic-release-discord)](https://www.npmjs.com/package/@higgs01dev/semantic-release-discord)
 ![](https://img.shields.io/bundlephobia/min/@higgs01dev/semantic-release-discord)
